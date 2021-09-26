@@ -1,0 +1,224 @@
+.header {
+  background-color: rgb(223, 217, 217);
+  height: 3rem;
+  margin-top: -1rem;
+  &__text {
+    text-align: left;
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
+}
+
+.headText {
+  float: left;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  &__icon {
+    float: left;
+  }
+}
+
+.cardContent {
+  padding: 2rem;
+  align-items: center;
+  background: linear-gradient(to bottom, rgb(172, 172, 172), rgb(236, 236, 236));
+}
+
+.CardInput {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  // box-shadow: 10px 9px 39px -3px #fbfafabf;
+  width: 46%;
+  margin-right:auto;
+  margin-left: 4rem;
+  margin-top: 6rem;
+  border-radius: 0.60rem;
+
+    > input {
+      width: 100%;
+      height: 2rem;
+      padding: 0.5rem;
+      margin: 0.4rem;
+      font-size: 1rem;
+      background-color: transparent;
+      border-radius: 0.40rem;
+      border: 2px solid #8095f1;
+      box-shadow: 6px 9px 9px 2px #fdfdfdbf;
+
+    }
+  
+    &__buttons {
+      
+      > button {
+        cursor: pointer;
+        outline: none;
+      }
+    }
+  
+    &__add-button {
+      color: #0077ff;
+      width: 10rem;
+      background-color: white;
+      font-size: 1.2rem;
+      padding: 0.5rem 1rem;
+      border-radius: 0.40rem;
+      border: 4px solid #0077ff;
+      margin: 0.4rem;
+      box-shadow: 6px 9px 9px 2px #fdfdfdbf;
+  
+      &:disabled {
+        background-color: grey;
+      }
+    }
+  
+    &__cancel-button {
+      width: 10rem;
+      background-color: transparent;
+      color: grey;
+      font-size: 1rem;
+      padding: 0.5rem 1rem;
+      border: 2px solid #b401eb71;
+      border-radius: 0.40rem;
+  
+      &:enabled {
+        font-size: 1.25rem;
+        color: #ff00c8;
+      }
+    }
+
+    &__delete-button {
+      position: absolute;
+      width: 10rem;
+      background-color: transparent;
+      color: grey;
+      font-size: 1rem;
+      padding: 0.5rem 1rem;
+      border: 2px solid #fd4391;
+      border-radius: 0.40rem;
+  
+      &:enabled {
+        font-size: 1.25rem;
+        color: black;
+      }
+    }
+}
+  
+
+.task {
+  display: flex;
+  display: inline-block;
+  justify-content: center;
+  padding: 2rem;
+  box-shadow: 10px 9px 39px -3px #fbfafabf;
+  width: 70%;
+  border: 1px solid #8095f1;
+  border-radius: 0.60rem;
+  margin-top: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+
+  &__title {
+    margin-right: 2rem;
+    color: #8095f1;
+    display: inline-block;
+
+  }
+
+  &__description {
+    color: rgb(7, 110, 179);
+    display: inline-block;
+  }
+}
+
+.colums {
+  display: flex;
+  justify-content: space-around;
+  background-color: blue;
+
+  &__list {
+    font-size: 1.6rem;
+    margin-left: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 150% !important;
+  }
+}
+
+.cardPatient {
+  justify-content: space-between;
+  height: 3rem;
+  box-shadow: 0 4px 6px -6px #222;
+
+  &__name {
+    text-align: left;
+    padding-left: 4rem;
+  }
+
+  &__icon {
+    font-size: 2rem;
+    padding-right: 1rem;
+  }
+}
+
+.complete {
+  color: white;
+  background-color: rgb(7, 207, 7);
+  border-radius: 20px;
+}
+
+.todo {
+  color: white;
+  background-color: hsl(60, 97%, 44%);
+  border-radius: 20px;
+}
+
+.cancel {
+  color: white;
+  background-color: #fd3e3e;
+  border-radius: 20px;
+}
+
+.DatePicker {
+  height: 2rem;
+  width: 6rem;
+  padding: 0.5rem;
+  // margin-left: -2.4rem;
+  font-size: 1rem;
+  background-color: transparent;
+  border-radius: 0.40rem;
+  border: 2px solid #8095f1;
+  box-shadow: 6px 9px 9px 2px #fdfdfdbf;
+}
+
+.sexSelect {
+  height: 3rem;
+  width: 10rem;
+  padding: 0.5rem;
+  margin: 0.4rem;
+  font-size: 1rem;
+  background-color: transparent;
+  border-radius: 0.40rem;
+  border: 2px solid #8095f1;
+  box-shadow: 6px 9px 9px 2px #fdfdfdbf;
+}
+
+.containerInput {
+  float: right;
+  margin-top: -12rem;
+  margin-right: 2rem;
+  border: transparent;
+  
+  &__inputSearch {
+    background-color: rgb(223, 217, 217);
+    height: 3rem;
+    width: 34rem;
+    border-radius: 8px;
+    border: transparent;
+  }
+
+  &__button {
+    height: 2rem;
+    margin-left: -2rem;
+  }
+}

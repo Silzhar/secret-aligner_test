@@ -1,0 +1,54 @@
+{
+    "patients":
+    [
+        {
+            "id" : 1,
+            "name":"katherine Hughes",
+            "clinic":"Clínica dental",
+            "treatment":"Revisión",
+            "state":"Finalizado"
+        },
+        {
+            "id" : 2,
+            "name":"Pamela Car",
+            "clinic":"Clínica dental",
+            "treatment":"Funda",
+            "state":"Pendiente"
+        },
+        {
+            "id" : 3,
+            "name":"Patricia Smith",
+            "clinic":"Clínica dental",
+            "treatment":"Ortodoncia",
+            "state":"Cancelado"
+        },
+        {
+            "id" : 4,
+            "name":"Terry Gray",
+            "clinic":"Clínica dental",
+            "treatment":"Implante",
+            "state":"Finalizado"
+        },
+        {
+            "id" : 5,
+            "name":"Brittany Simmons",
+            "clinic":"Clínica dental",
+            "treatment":"Ortodoncia",
+            "state":"Finalizado"
+        },
+        {
+            "id" : 6,
+            "name":"Peter Parker",
+            "clinic":"Clínica dental",
+            "treatment":"Limpieza",
+            "state":"Pendiente"
+        },
+        {
+            "id" : 7,
+            "name":"Thom Jones",
+            "clinic":"Clínica dental",
+            "treatment":"Revisión",
+            "state":"Pendiente"
+        }
+    ]
+}
